@@ -343,3 +343,22 @@ h3 {
     font-size: 20px;
     color: #243e63;
 }
+
+.projects__header {
+    display: flex;
+    align-items: center;
+}
+
+.projects__header--img {
+    background-color: green;
+    padding: 8px;
+    border-radius: 75px;
+    width: 36px;
+    margin-right: 16px;
+}
+
+.fas {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
