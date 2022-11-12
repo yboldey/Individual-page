@@ -273,7 +273,7 @@ button:hover {
     font-weight: 500;
     font-size: 18px;
     color: gray;
-    padding: 0 16px 32px 0;
+    padding: 16px  16px 32px 0;
 }
 
 .projects__img {
@@ -350,15 +350,24 @@ h3 {
 }
 
 .projects__header--img {
-    background-color: green;
     padding: 8px;
-    border-radius: 75px;
     width: 36px;
+    height: 36px;
+    border-radius: 75px;
     margin-right: 16px;
 }
 
+.dollar {
+    background-color: #9ae6b4;
+}
+
+.briefcase {
+    background-color: #feb2b2;
+}
+
 .fas {
+    width: 100%;
     font-size: 20px;
-    display: flex;
-    justify-content: center;
+    text-align: center;
+    opacity: 0.5;
 }
