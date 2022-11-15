@@ -393,26 +393,26 @@ h3 {
 
 .plans {
     display: flex;
-    justify-content: center;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .plan {
     width: calc(100% /4);
     display: flex;
     flex-direction: column;
-    margin: 0 auto;
     text-align: center;
-    border: 1px rgba(0, 0, 0, 0.25) solid;
-    padding: 24px;
-    border-radius: 4px;
+    border: 1px rgba(0, 0, 0, 0.13) solid;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px rgb(0 0 0 / 16%);
+    margin-left: 24px;
 }
 
 li {
     list-style: none;
     color: gray;
     font-weight: 500;
-    padding: 8px 0;
+    margin-top: 16px;
 }
 
 .plan__header--title {
@@ -433,5 +433,62 @@ li {
 }
 
 .plan__header {
-    padding: 24px 0;
+    padding-top: 24px;
+}
+
+hr {
+    margin: 24px 0;
+    border: 1px rgba(0, 0, 0, 0.13) solid;
+}
+
+.hr__white {
+    border: 1px rgba(255, 255, 255, 0.438) solid;
+}
+
+.plan__button {
+    padding-bottom: 24px;
+}
+
+.btn__blue {
+    background-image: linear-gradient(to right, rgba(18, 252, 201, 0.555), rgb(18, 252, 201));
+    padding: 16px 48px;
+    font-weight: 600;
+}
+
+.btn__blue:hover {
+    transform: translateX(1px) translateY(-1px);
+    box-shadow: 0 4px 16px rgb(0 0 0 / 24%);
+}
+
+.plan__blue {
+    background-image: linear-gradient(to right, rgb(68, 0, 255), rgba(0, 17, 255, 0.384) );
+    border: none;
+}
+
+.white {
+    color: white;
+}
+
+.btn__white {
+    background-color: white;
+    padding: 16px 48px;
+    color: #243e63;
+    font-weight: 600;
+}
+
+.btn__white:hover {
+    background-color: white;
+    transform: translateX(1px) translateY(-1px);
+    box-shadow: 0 4px 16px rgb(0 0 0 / 24%);
+}
+
+.btn__red {
+    background-image: linear-gradient(to right, rgba(255, 64, 64, 0.555), rgb(245, 101, 101));
+    padding: 16px 48px;
+    font-weight: 600;
+}
+
+.btn__red:hover {
+    transform: translateX(1px) translateY(-1px);
+    box-shadow: 0 4px 16px rgb(0 0 0 / 24%);
 }
