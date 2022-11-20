@@ -586,3 +586,141 @@ text-decoration: none;
     background-color: rgba(255, 255, 255, 0.664);
 }
 
+@media (max-width: 1023px) {
+    
+    .landing-left {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .landing-all {
+        flex-wrap: wrap;
+        margin-bottom: 96px;
+    }
+
+    .landing-left__para {
+        max-width: 600px;
+    }
+
+    .landing-left__title {
+        font-size: 28px;
+    }
+
+    .landing-left__img {
+        width: 70%;
+        display: flex;
+    }
+
+    .landing-left__img--wrapper {
+        display: flex;
+        justify-content: center;
+    }
+
+    .landing-right {
+        width: 100%;
+    }
+
+    .landing-right__img--wrapper {
+        width: 100%;
+        margin: 0 auto;
+        justify-content: center;
+    }
+
+    .landing-right__img {
+        width: 600px;
+        padding: 16px;
+    }
+
+    .features__heading {
+        margin-top: 48px;
+    }
+
+    .service {
+        width: calc(100% / 2);
+    }
+
+    .projects__description--para {
+        font-size: 16px;
+    }
+
+    .h1__secondary {
+        font-size: 24px;
+    }
+
+    .plan {
+        width: 100%;
+        max-width: 380px;
+    }
+
+    .project__description-columns {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 768px) {
+    .service {
+        width: 100%;
+        max-width: 400px;
+        margin: 0 auto;
+    }
+
+    .projects {
+        display: flex;
+        flex-direction:column-reverse;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .projects__description {
+        padding-left: 0;
+        align-items: center;
+    }
+
+    .projects__img {
+        width: 600px;
+    }
+
+    .projects__description {
+        width: 80%;
+    }
+
+    .h1__secondary {
+        font-size: 32px;
+    }
+
+    .steps {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .number {
+        padding-right: 0;
+    }
+
+    .projects__description--column {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .footer__links {
+        padding-left: 40px;
+    }
+
+    .footer__link--column {
+        width: calc(100% / 3);
+        padding: 0 0 24px 0;
+    }
+
+    .footer__info {
+        flex-direction: column;
+        height: 240px;
+    }
+}
