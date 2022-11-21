@@ -8,6 +8,7 @@
     <title>Individual Page</title>
     <link rel="stylesheet" href="styles.css" />
     <script src="https://kit.fontawesome.com/553ef4e0a4.js" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
 </head>
 
 <body>
@@ -38,6 +39,34 @@
                         <a href="" class="nav__link--primary">Sign Up</a>
                     </li>
                 </ul>
+                <button class="btn__menu" onclick="openMenu()">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="menu__backdrop">
+                    <button class="btn__menu btn__menu--close" onclick="closeMenu()">
+                        <i class="fas fa-times"></i>
+                    </button>
+                    <ul>
+                        <li class="nav__link">
+                            <a href="" class="nav__link--list">About</a>
+                        </li>
+                        <li class="nav__link">
+                            <a href="" class="nav__link--list">Blog</a>
+                        </li>
+                        <li class="nav__link">
+                            <a href="" class="nav__link--list">Pricing</a>
+                        </li>
+                        <li class="nav__link">
+                            <a href="" class="nav__link--list">Contact Us</a>
+                        </li>
+                        <li class="nav__link">
+                            <a href="" class="nav__link--list">Login</a>
+                        </li>
+                        <li class="nav__link">
+                            <a href="" class="nav__link--primary">Sign Up</a>
+                        </li>
+                        </ul>
+                </div>
             </nav>
         </div>
         <div class="row">
@@ -159,7 +188,7 @@
                             cupiditate accusamus, doloremque
                             quisquam laudantium, ipsa, exercitationem et tempore maxime distinctio qui facere molestias
                             impedit doloribus dolore sapiente! Minima, sapiente officiis.</p>
-                        <button>Learn More</button>
+                        <button class="btn">Learn More</button>
                     </div>
                     <div class="projects__img">
                         <figure class="projects__img--wrapper">
@@ -244,7 +273,7 @@
                                     created by professional designers.</p>
                             </div>
                         </div>
-                        <button>Learn More</button>
+                        <button class="btn">Learn More</button>
                     </div>
                     <div class="projects__img">
                         <figure class="projects__img--wrapper">
@@ -292,7 +321,7 @@
                             <hr>
                         </div>
                         <div class="plan__button">
-                            <button class="btn__blue"> BUY NOW</button>
+                            <button class="btn btn__blue"> BUY NOW</button>
                         </div>
                     </div>
                     <div class="plan plan__blue">
@@ -321,7 +350,7 @@
                             <hr class="hr__white">
                         </div>
                         <div class="plan__button">
-                            <button class="btn__white"> BUY NOW</button>
+                            <button class="btn btn__white"> BUY NOW</button>
                         </div>
                     </div>
                     <div class="plan">
@@ -350,7 +379,7 @@
                             <hr>
                         </div>
                         <div class="plan__button">
-                            <button class="btn__red"> BUY NOW</button>
+                            <button class="btn btn__red"> BUY NOW</button>
                         </div>
                     </div>
                 </div>
